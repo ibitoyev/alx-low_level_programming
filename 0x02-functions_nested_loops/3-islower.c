@@ -4,7 +4,7 @@
 * _islower - checks if a character is lowercase if YES it returns 1
 * otherwise returns 0 just like islower() function in ctype.h
 * @c: contains value to be compared
-* Return: Always 0     
+* Return: Always 0
 */
 
 int _islower(int c)
@@ -14,7 +14,6 @@ int _islower(int c)
 	{
 		return (1);
 	}
-	
 	else
 	{
 		return (0);
