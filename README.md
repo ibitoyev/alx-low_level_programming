@@ -1,1 +1,1 @@
-This is a repository about C programming
+C - Functions and nested loops
