@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -9,13 +8,19 @@
  * Return: Always 0 (Success)
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	int n;
+	/*Declaring variables*/
+	int count = 0;
 
-	for (n = 0; n < argc; n++)
+	if (argc > 0)
 	{
-		printf("%s\n", argv[n];
+		/*WHILE - Print each arguments*/
+		while (count < argc)
+		{
+			printf("%s\n", argv[count]);
+			count++;
+		}
 	}
 	return (0);
 }
